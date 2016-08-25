@@ -2,19 +2,8 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
     <Identity Id="ab75aa82-c4e8-42a7-b4ec-b5bae2fa4925" Version="1.8" Language="en-US" Publisher="Vitalii Ganzha" />
-    <DisplayName>Visual Studio Ding extension for VS 2012</DisplayName>
-    <Description xml:space="preserve">This small extension will play notification sounds when following events occur:
-- Build Complete
-- Entering debugger mode (breakpoint hit, etc)
-- Unit tests finished to run
-
-Useful when working with big solutions or when build/test run/hitting a breakpoint takes a lot of time and developer can be distructed on other things while he waits.
-
-Just install it and it is ready to use!
-
-This is an open source project, join!
-
-Twitter: @GanzhaVitalii&lt;/Description&gt;</Description>
+    <DisplayName>Visual Studio Slow Cheetahs extension for VS 2015</DisplayName>
+    <Description xml:space="preserve">This small extension will play notification sounds for the user</Description>
     <MoreInfo>https://github.com/thecoderok/vsdingextension</MoreInfo>
     <ReleaseNotes>ReleaseNotes.txt</ReleaseNotes>
     <Icon>speaker2012.ico</Icon>

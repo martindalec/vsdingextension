@@ -47,9 +47,9 @@ namespace VitaliiGanzha.VsDingExtension
             IsBeepOnBuildComplete = true;
             IsBeepOnTestComplete = true;
             IsBeepOnTestFailed = false;
-            ShowTrayNotifications = true;
+            ShowTrayNotifications = false;
             IsBeepOnlyWhenVisualStudioIsInBackground = false;
-            ShowTrayDisableMessage = true;
+            ShowTrayDisableMessage = false;
         }
     }
 }

@@ -17,8 +17,8 @@ namespace VitaliiGanzha.VsDingExtension
     [InstalledProductRegistration("#110", "#112", "1.1", IconResourceID = 400)]
     [Guid(GuidList.guidVsDingExtensionProjectPkgString)]
     [ProvideAutoLoad("{f1536ef8-92ec-443c-9ed7-fdadf150da82}")]
-    [ProvideOptionPage(typeof(OptionsDialog), "Ding", "General settings", 0, 0, true)]
-    [ProvideOptionPage(typeof(SoundsSelectOptionsPage), "Ding", "Overrride sounds", 0, 0, true)]
+    [ProvideOptionPage(typeof(OptionsDialog), "Slow Cheetahs", "General settings", 0, 0, true)]
+    [ProvideOptionPage(typeof(SoundsSelectOptionsPage), "Slow Cheetahs", "Overrride sounds", 0, 0, true)]
     public sealed class VsDingExtensionProjectPackage : Package, IDisposable
     {
         private DTE2 applicationObject;
